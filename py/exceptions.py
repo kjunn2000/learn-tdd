@@ -1,0 +1,3 @@
+class CurrencyRateNotFoundException(Exception):
+    pass
+
