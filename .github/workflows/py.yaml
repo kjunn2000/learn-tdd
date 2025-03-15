@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r py/requirements.txt
     - name: Run tests
       run: |
         python -v -m pytest py/test_money.py 
